@@ -1,0 +1,84 @@
+body {
+  color: rgb(9, 9, 78);
+  background-color: rgb(240, 240, 231);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: rgb(7, 61, 61);
+  font-size: 30px;
+  font-family: roboto;
+}
+
+#foto {
+  border-radius: 50%;
+}
+
+h2 {
+  color: rgb(35, 38, 204);
+  font-size: 25;
+  font-family: roboto;
+}
+
+p {
+  text-align: justify;
+  padding: 30px;
+}
+
+.card-white {
+  padding: 30px;
+  margin: 0 400px;
+  background-color: white;
+  text-align: center;
+  border-radius: 4%;
+  box-shadow: rgb(0,0,0,01);
+}
+
+#introduction {
+  margin-bottom: 50px;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
